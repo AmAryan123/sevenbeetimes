@@ -1,0 +1,122 @@
+.topnav {
+  overflow: hidden;
+  background-color: #ffff;
+  font-family: 'poppins',sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'poppins',sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: white;
+  font-family: 'poppins',sans-serif;
+}
+
+.topnav a.active {
+  background-color: #ffff;
+  color: white;
+  font-family: 'poppins',sans-serif;
+}
+.header {
+  padding: 220px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+}
+.header2 {
+  padding: 120px;
+  text-align: center;
+  background: #BDFFA4;
+  color: black;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+}
+body {
+            animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: backwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .secondbanner{
+  padding: 220px;
+  text-align: center;
+  background: #ffff;
+  color: black;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+}
+.header3 {
+  padding: 120px;
+  text-align: center;
+  background: #ADD8E6;
+  color: black;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 60px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'poppins',sans-serif;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: 'poppins',sans-serif;
+}
+.confirmationmessage {
+  padding: 220px;
+  text-align: center;
+  color:black;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+}
+.subject {
+  float: left;
+  width: 75%;
+  margin-top: 100px;
+}
+.name {
+  float: left;
+  width: 75%;
+  margin-top: 100px;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 25px;
+  top: 1100px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  font-family: 'poppins',sans-serif;
+}
